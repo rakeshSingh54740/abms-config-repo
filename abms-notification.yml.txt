@@ -1,0 +1,14 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: abms-notification
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/abms_notification_db
+
+logging:
+  level:
+    root: INFO

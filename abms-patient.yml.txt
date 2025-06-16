@@ -1,0 +1,14 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: abms-patient
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/abms_patient_db
+
+logging:
+  level:
+    root: INFO
