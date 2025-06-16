@@ -1,0 +1,14 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: abms-utility
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/abms_utility_db
+
+logging:
+  level:
+    root: INFO
